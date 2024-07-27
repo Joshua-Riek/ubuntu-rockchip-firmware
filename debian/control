@@ -1,0 +1,18 @@
+Source: linux-firmware-rockchip
+Section: kernel
+Priority: optional
+Maintainer: Joshua Riek <jjriek@verizon.net>
+Standards-Version: 4.5.0
+Build-Depends: debhelper, rsync, fakeroot
+Homepage: https://github.com/Joshua-Riek/linux-firmware-rockchip/
+
+Package: linux-firmware-rockchip
+Architecture: all
+Multi-Arch: foreign
+Priority: optional
+Depends: ${misc:Depends}
+Conflicts: orangepi-firmware, armbian-firmware, rockchip-firmware
+Replaces: orangepi-firmware, armbian-firmware, rockchip-firmware
+Description: Firmware for Linux kernel drivers
+ This package provides firmware used by Linux kernel drivers.
+

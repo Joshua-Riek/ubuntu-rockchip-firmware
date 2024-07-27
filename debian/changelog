@@ -1,0 +1,5 @@
+linux-firmware-rockchip (24.04.1) noble; urgency=medium
+
+  * Initial release.
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 27 Jul 2024 10:53:33 -0400
